@@ -27,7 +27,7 @@ const Hero = () => {
 		},
 		mobile: {
 			breakpoint: { max: 464, min: 0 },
-			items: 1,
+			items: 2,
 		},
 	};
 
@@ -57,21 +57,26 @@ const Hero = () => {
 				</Flex>
 			</Container>
 			<Box my={10}>
-				<Carousel infinite={true} responsive={responsive}>
+				<Carousel
+					autoPlay={true}
+					infinite={true}
+					autoPlaySpeed={2000}
+					responsive={responsive}
+				>
 					<Box>
-						<Image src='https://media.tiffany.com/is/image/tiffanydm/QuickLink-464x464-WeddingBands2?$tile$&&fmt=webp' />
+						<Image src='https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-lockring-72346300_1061470_ED_M.jpg?defaultImage=NoImageAvailableInternal&fmt=webp' />
 					</Box>
 					<Box>
-						<Image src='https://media.tiffany.com/is/image/tiffanydm/QuickLink-464x464-StackingBands2?$tile$&&fmt=webp' />
+						<Image src='https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-tt1-ring-67795121_1010332_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp' />
 					</Box>
 					<Box>
-						<Image src='https://media.tiffany.com/is/image/tiffanydm/QuickLink-464x464-EternityRings2?$tile$&&fmt=webp' />
+						<Image src='https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-co-schlumbergersixteen-stone-ring-11715966_1031820_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp' />
 					</Box>
 					<Box>
-						<Image src='https://media.tiffany.com/is/image/tiffanydm/QuickLink-464x464-CocktailRings2?$tile$&&fmt=webp' />
+						<Image src='https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-knotring-69346863_1029033_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp' />
 					</Box>
 					<Box>
-						<Image src='https://media.tiffany.com/is/image/tiffanydm/QuickLink-464x464-CoupleRings2?$tile$&&fmt=webp' />
+						<Image src='https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-knotdouble-row-ring-68887976_1029457_ED_M.jpg?defaultImage=NoImageAvailableInternal&fmt=webp' />
 					</Box>
 				</Carousel>
 			</Box>
